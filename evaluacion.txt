@@ -1,0 +1,36 @@
+EL costo de hospedaje de un hotel es deacuerdo al tiempo que se este hospedando deacuerdo a la siguente informacion:
+
+Si se hospeda de 1 a 3 horas el costo es de $300
+Si se hospeda de 4 a 8 horas el costo es de $500
+Si se hospeda de 9 a 12 horas el costo es de $700
+Si se hospeda de 13 a 24 horas el costo es de $1000
+Si se hospeda de 25 o mas horas el costo es de $1500
+
+Test Data	-	Expected result
+	-5		-			$0
+	0		-			$0
+	1		-			$300
+	2		-			$300
+	3		-			$300
+	4		-			$500
+	6		-			$500
+	8		-			$500
+	9		-			$700
+	11		-			$700
+	12		-			$700
+	13		-			$1000
+	20		-			$1000
+	24		-			$1000
+	25		-			$1500
+	30		-			$1500
+
+
+El nivel de prueba es de unidad
+porque se esta evaluando la pura funcion de cobro.
+
+
+
+
+
+
+
